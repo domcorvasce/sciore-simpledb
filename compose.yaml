@@ -1,0 +1,7 @@
+services:
+  workspace:
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - "1099:1099"
